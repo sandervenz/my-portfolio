@@ -2,10 +2,6 @@
 
 This repository contains a beautiful, responsive personal portfolio built using **React**, **Vite**, and **TailwindCSS**. The project showcases modern web development techniques including smooth animations, responsive layouts, and interactive UI components.
 
-### Want to watch this?
-[![Check this out](https://img.youtube.com/vi/LGdPMf-SgBA/maxresdefault.jpg)](https://youtu.be/LGdPMf-SgBA)
-
-
 ## Features
 
 - **Modern Design:** Clean, SaaS-inspired design with a glass-effect navbar and sleek animations.
@@ -26,7 +22,7 @@ This repository contains a beautiful, responsive personal portfolio built using 
 
    ```bash
    git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
+   cd my-portfolio
    ```
 
 2. **Install dependencies:**
@@ -87,9 +83,6 @@ your-portfolio/
 - **Components:** Edit individual components in the `src/components/` folder to update content or styling.
 - **Sections:** Update content in the `src/components/sections/` directory to showcase your personal projects, about info, and contact details.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request with improvements.
 
 ## License
 
