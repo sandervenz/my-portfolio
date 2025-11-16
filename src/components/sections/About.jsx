@@ -12,6 +12,7 @@ export const About = () => {
     "AWS",
     "GCP",
     "Python",
+    "FastAPI",
     "Docker",
     "Figma",
     "MongoDB",
@@ -19,6 +20,8 @@ export const About = () => {
     "MySQL",
     "Redis",
     "RabbitMQ",
+    "Git",
+    "n8n",
   ];
 
   return (
@@ -27,7 +30,7 @@ export const About = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4">
+        <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             About Me
           </h2>
@@ -70,6 +73,14 @@ export const About = () => {
                   Sanbercode - Intense Frontend ReactJS Bootcamp (2025)
                 </li>
               </ul>
+              <a 
+                href="https://www.linkedin.com/in/sander-vdb/details/certifications/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-xs text-gray-400 hover:text-blue-400 transition mt-3 inline-block"
+              >
+                and more certificates...
+              </a>
             </div>
 
             {/* Work Experience Section */}
@@ -78,13 +89,39 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
+                    <li>Module Assistant at Integrated Laboratory (iLab){" "}
+                      <span className="text-sm text-gray-400 font-normal">
+                        - Contract
+                      </span>
+                    </li>  
+                  </h4>
+                  <p className="text-sm text-gray-400">Gunadarma University · Jul 2025 - Present</p>
+                  <p className="text-sm text-gray-400">
+                    Quality assurance and revision of practicum modules, content review and testing.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-semibold">
+                    <li>Software Engineer{" "}
+                      <span className="text-sm text-gray-400 font-normal">
+                        - Part-time
+                      </span>
+                    </li>  
+                  </h4>
+                  <p className="text-sm text-gray-400">UNIVERSA AI · Aug 2025 - Oct 2025</p>
+                  <p className="text-sm text-gray-400">
+                    Building backend services and automation tools.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-semibold">
                     <li>Fullstack AI Developer{" "}
                       <span className="text-sm text-gray-400 font-normal">
                         - Intern
                       </span>
                     </li>  
                   </h4>
-                  <p className="text-sm text-gray-400">Mei - July 2025</p>
+                  <p className="text-sm text-gray-400">UNIVERSA AI · Apr 2025 - Jul 2025</p>
                   <p className="text-sm text-gray-400">
                     Creating an AI-driven protein discovery web app.
                   </p>
