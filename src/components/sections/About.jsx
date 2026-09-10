@@ -74,7 +74,7 @@ export const About = () => {
       degree: "Bachelor's Degree in Informatics",
       period: "2022 – 2026",
       location: "Depok, West Java",
-      details: "Focusing on Software Engineering, Backend Architecture, and Intelligent Systems.",
+      details: "Graduated with focus on Software Engineering, Backend Architecture, and Intelligent Systems.",
     },
     {
       school: "SMA Cakra Buana",

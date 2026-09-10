@@ -20,7 +20,7 @@ export const Home = () => {
           </h1>
 
           <p className="text-lg sm:text-xl font-medium text-blue-400/90 mb-4">
-            Software Engineer & Informatics Engineering Student
+            Software Engineer &bull; Informatics Graduate
           </p>
 
           <p className="text-gray-300 text-base sm:text-lg mb-8 leading-relaxed">
